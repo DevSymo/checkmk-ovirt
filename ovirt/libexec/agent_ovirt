@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+# /local/lib/python3/cmk_addons/plugins/ovirt/libexec/agent_ovirt
+'''special agent call file for oVirt'''
+
+# License: GNU General Public License v2
+
+import sys
+
+from cmk_addons.plugins.ovirt.special_agents.agent_ovirt import main
+
+if __name__ == "__main__":
+    sys.exit(main())
